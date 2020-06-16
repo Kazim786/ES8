@@ -24,6 +24,11 @@ console.log(rabbit);
 // Read about what the second parameter does in padEnd and padStart
 turtle = turtle.trim().padEnd(9, '=');
 
+'     ||<- Start line'
+'🐢======='
+'       🐇'
+
+//Basically this will fill up the 9 spaces with whatever is put in for the second parameter
 
 // #3) Get the below object to go from:
 let obj = {
