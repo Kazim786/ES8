@@ -33,3 +33,14 @@ let obj = {
 }
 // to this:
 'my name is Rudolf the raindeer'
+
+Object.entries(obj).map( value => {
+  return console.log(value.join(" "))
+
+})
+
+//If we wanted to get key value pair this is how we would do it.
+Object.keys(obj).forEach((key, index) => {
+  console.log(key, obj[key]) //the syntax obj[key] is like this because key is the variable so to speak that carries the value. To access the value you must use its key
+}
+)
