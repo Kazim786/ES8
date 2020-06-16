@@ -5,6 +5,10 @@ const startLine = '     ||<- Start line';
 let turtle = '🐢';
 let rabbit = '🐇';
 
+turtle = turtle.padStart(8);
+//gotta update the variables so the pad positions display when you console.log them
+rabbit = rabbit.padStart(8);
+
 // it should look like this:
 '     ||<- Start line'
 '       🐢'
